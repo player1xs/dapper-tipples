@@ -1,0 +1,22 @@
+@import './header.scss';
+@import './sidebar.scss';
+@import './home.scss';
+@import './footer.scss';
+@import './cocktail-index.scss';
+@import './cocktail-single.scss';
+@import './notFound.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Unicase', sans-serif;
+  margin: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('src/assets/ar68350_dandelyan-bar_emily-andrews.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
